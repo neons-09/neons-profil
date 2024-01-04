@@ -4,7 +4,7 @@ import Bulb from "../components/Utilities/Bulb";
 import ServicesSlider from "../components/Slider/ServicesSlider";
 const Work = () => {
   return (
-    <div className="h-full bg-primary/30 overflow-y-auto py-36 flex items-center">
+    <div className="h-full max-w-screen bg-primary/30 overflow-y-auto py-36 flex items-center">
       <Circles />
       <div className="container mx-auto mt-[20px]">
         <div className="flex flex-col xl:flex-row gap-x-8">

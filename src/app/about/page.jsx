@@ -92,7 +92,7 @@ const About = () => {
   const [index, setIndex] = useState(0);
 
   return (
-    <div className="h-full bg-primary/30 overflow-y-auto py-32 text-center xl:text-left z-50 xl:ms-14">
+    <div className="h-full max-w-screen bg-primary/30 overflow-y-auto py-32 text-center xl:text-left z-50 xl:ms-14">
       <Circles />
       {/* Avatar */}
       <div className="hidden xl:flex absolute -bottom-[180px] -left-[350px]">
