@@ -2,28 +2,9 @@
 import Circles from "../components/Utilities/Circles";
 import Bulb from "../components/Utilities/Bulb";
 import ServicesSlider from "../components/Slider/ServicesSlider";
-import { useEffect, useState } from "react";
 const Work = () => {
-  const [isPressed, setIsPressed] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const shouldShowPressure = window.scrollY > 100;
-      setIsPressed(shouldShowPressure);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
   return (
-    <div
-      className={`scroll-effect-container ${
-        isPressed ? "pressed" : ""
-      }h-full bg-primary/30 py-36 flex items-center overflow-y-auto`}
-    >
+    <div className="h-full bg-primary/30 overflow-y-auto py-36 flex items-center">
       <Circles />
       <div className="container mx-auto mt-[20px]">
         <div className="flex flex-col xl:flex-row gap-x-8">

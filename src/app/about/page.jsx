@@ -20,11 +20,11 @@ import {
   SiMicrosoftword,
 } from "react-icons/si";
 
-import Circles from "../components/Utilities/Circles";
 import { useState } from "react";
+import Circles from "../components/Utilities/Circles";
 import Avatar from "../components/Utilities/Avatar";
 import CountUp from "react-countup";
-import { useEffect } from "react";
+
 //  data
 const aboutData = [
   {
@@ -90,20 +90,6 @@ const aboutData = [
 
 const About = () => {
   const [index, setIndex] = useState(0);
-  const [isPressed, setIsPressed] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const shouldShowPressure = window.scrollY > 100;
-      setIsPressed(shouldShowPressure);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   return (
     <div className="h-full bg-primary/30 overflow-y-auto py-32 text-center xl:text-left z-50 xl:ms-14">
