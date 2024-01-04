@@ -98,7 +98,7 @@ const About = () => {
       <div className="hidden xl:flex absolute -bottom-[180px] -left-[350px]">
         <Avatar />
       </div>
-      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6  mix-blend-color-dodge xl:mt-16 mb-2">
+      <div className="container-fluid mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6  mix-blend-color-dodge xl:mt-16 mb-2">
         {/* Text */}
         <div className="flex-1 flex flex-col justify-center -mb-2">
           <h2 className="xl:text-4xl text-xl md:leading-[1.2] mb-2 -mt-4 font-italic">
