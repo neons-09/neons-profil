@@ -16,7 +16,7 @@ const page = () => {
             </span>
           </h4>
           {/* Subtitle */}
-          <p className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-8 xl:mb-6">
+          <p className="p max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-8 xl:mb-6">
             Embarking on a digital journey, my portfolio showcases a symphony of
             web development expertise.each project is a testament to my
             commitment to crafting seamless online experiences. Dive into a

@@ -4,7 +4,7 @@ import WorkSlider from "../components/Slider/WorkSlider";
 
 const Work = () => {
   return (
-    <div className="h-full max-h-screen bg-primary/30 py-36 flex items-center">
+    <div className="bg-primary/30 py-36 flex items-center mt-top">
       <Circles />
       <div className="container mx-auto mt-[20px]">
         <div className="flex flex-col xl:flex-row gap-x-8">

@@ -92,7 +92,7 @@ const About = () => {
   const [index, setIndex] = useState(0);
 
   return (
-    <div className="h-full max-w-screen bg-primary/30 overflow-y-auto py-32 text-center xl:text-left z-50 xl:ms-14">
+    <div className="bg-primary/30 overflow-y-auto py-32 text-center xl:text-left z-50 xl:ms-14 mt-top">
       <Circles />
       {/* Avatar */}
       <div className="hidden xl:flex absolute -bottom-[180px] -left-[350px]">
@@ -105,7 +105,7 @@ const About = () => {
             <span className="text-accent">Neons</span> Profile as a <br />
             Front-End and Microsof Office Specialist
           </h2>
-          <p className="max-w-[450px] mx-auto xl:mx-0 mb-6 xl:mb-10 px-2 xl:px-0">
+          <p className=" p max-w-[450px] mx-auto xl:mx-0 mb-6 xl:mb-10 px-2 xl:px-0">
             Hello,my name is Muhammad Dava,my nickname is Neons.I am a
             vocational student at Medan Tritech Vocational School.I am majoring
             in TKJ (Computer Network Engineering).But I am interested in the
@@ -126,7 +126,7 @@ const About = () => {
               </div>
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={2} duration={3} />+
+                  <CountUp start={0} end={4} duration={3} />+
                 </div>
                 <div className="text-xs uppercase tracking-[1] leading-[1.2] mb-4 text-accent max-w-[100px]">
                   Finished Projects
