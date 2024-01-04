@@ -1,5 +1,5 @@
 import Avatar from "./components/Utilities/Avatar";
-import ParticlesContainer from "./components/Utilities/ParticlesContainer";
+// import ParticlesContainer from "./components/Utilities/ParticlesContainer";
 import ProjectBtn from "./components/Utilities/ProjectBtn";
 
 const page = () => {
@@ -33,7 +33,7 @@ const page = () => {
         {/* Bg-img */}
         <div className="bg-none xl:bg-explosion xl:bg-cover-right xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"></div>
         {/* Partikel */}
-        <ParticlesContainer />
+        {/* <ParticlesContainer /> */}
         {/* <div>Particles</div> */}
         {/* Avatarimg */}
         <div className="w-full h-full max-w-[637px] max-h-[578px] absolute -bottom-32 lg:bottom-0 lg:right-[0%]">
